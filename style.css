@@ -1,3 +1,12 @@
+.row-header{
+    margin:0px auto;
+    padding:0px auto;
+}
+.row-content{
+    margin:0px auto;
+    padding: 50px 0px 50px 0px;
+    min-height:400px;
+}
 .jumbotron
 {
     padding:70px 30px 70px 30px;
@@ -6,11 +15,18 @@
 
 }
 #jumbo{
-    background-color: rgb(146, 70, 218);
+    background-color:blueviolet+
+}
+.footer-content{
+    margin:0px auto;
+    padding: 1px 0px 0px 0px;
+    min-height:400px;
 }
 .footer
 {
-    background-color:rgba(186, 212, 208, 0.726);
+    background-color:#D1C4E9;
+    margin: 0px auto;
+    padding: 20px 0px 20px 0px;
 }
 body{
     padding:50px 0px 0px;
@@ -24,4 +40,10 @@ body{
 {
     padding-left:-50%
     
+}
+.tab-content{
+    border-left: 1px solid #dddd;
+    border-right: 1px solid #dddd;
+    border-bottom: 1px solid #dddd;
+    padding: 10px;
 }
